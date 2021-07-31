@@ -16,8 +16,7 @@ else
 
 private float calcularHoraExtra( ){
 int horasExtras = 0;
-if(horasTrabajadas > 70)
-   horasExtras = horasTrabajadas - 70;
+horasExtras = horasTrabajadas - 70;
 return (horasExtras * sueldoHora) * 2;
 }
 
